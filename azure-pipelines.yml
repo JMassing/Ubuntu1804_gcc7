@@ -19,7 +19,7 @@ variables:
   imageName: 'massj/ubuntu1804:gcc7'
 
 stages:
-- stage: Build and Push
+- stage: Build
   displayName: Build and Push image
   jobs:  
   - job: Build
