@@ -16,7 +16,7 @@ resources:
 - repo: self
 
 variables:
-  imageName: 'massj/ubuntu1804:gcc7'
+  imageName: 'massj/ubuntu1804'
 
 stages:
 - stage: Build
