@@ -1,4 +1,4 @@
-[![Build Status](https://dev.azure.com/julimassing/Github_Pipelines/_apis/build/status/JMassing.Ubuntu1804_gcc7_docker?branchName=master)](https://dev.azure.com/julimassing/Github_Pipelines/_build/latest?definitionId=2&branchName=master)
+![Build and Push](https://github.com/JMassing/Ubuntu1804_gcc7_docker/workflows/Build%20and%20Push/badge.svg)
 
 # Ubuntu 18.04 build container
 Ubuntu 18.04 Docker Container for building c++-Projects with conan, cmake and g++7 compiler. lcov is used to calculate code coverage.
