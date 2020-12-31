@@ -19,6 +19,7 @@ RUN apt-get update                              &&\
     apt install -y gcovr                        &&\
     apt install -y git                          &&\
     apt install -y cmake                        &&\
+    apt install -y curl                         &&\
     pip3 install conan
       
 
