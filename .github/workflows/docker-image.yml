@@ -15,7 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Login to DockerHub Registry
-      run: docker login -u ${{ secrets.DOCKERHUB_USERNAME }} -p ${{ secrets.DOCKERHUB_PASSWORD }} 
+      run: docker login -u ${{ secrets.DOCKERHUB_USER }} -p ${{ secrets.DOCKERHUB_PASSWORD }} 
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag massj/ubuntu1804:gcc7
     - name: Push the Docker image
