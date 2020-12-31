@@ -1,4 +1,4 @@
-[![Build Status](https://dev.azure.com/julimassing/Pokerbot/_apis/build/status/JMassing.Ubuntu1804_gcc7?branchName=master)](https://dev.azure.com/julimassing/Pokerbot/_build/latest?definitionId=1&branchName=master)
+[![Build Status](https://dev.azure.com/julimassing/Pokerbot/_apis/build/status/JMassing.Ubuntu1804_gcc7_docker?branchName=master)](https://dev.azure.com/julimassing/Pokerbot/_build/latest?definitionId=2&branchName=master)
 
 # Ubuntu 18.04 build container
 Ubuntu 18.04 Docker Container for building c++-Projects with conan, cmake and g++7 compiler. lcov is used to calculate code coverage.
