@@ -24,4 +24,4 @@ Installed tools and libraries:
 * gcovr v3.4
 * git   v2.17
 * cmake v3.10
-* conan v1.32
+* conan v1.35
